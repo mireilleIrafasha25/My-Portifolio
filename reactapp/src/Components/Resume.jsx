@@ -4,8 +4,8 @@ const Resume = () => {
     {
       year: '2018 - 2021',
       title: 'Advanced level',
-      company: 'GSNDL byimna',
-      description: 'In combination of MCE(Mathematic-computer science-economics',
+      company: "FAWE GIRL'S SCHOOL GAHINI",
+      description: 'In combination of MCE(Mathematic-computer science-economics)',
     },
     {
       year: '2021 - PRESENT',
@@ -15,15 +15,15 @@ const Resume = () => {
     },
     {
       year: '2024',
-      title: 'UI/UX DESIGNER',
+      title: 'BackEnd Development',
       company: 'SheCanCode',
-      description: 'Learning as a trainee for 4 months',
+      description: 'Learning as a trainee for 4 months in an intensive program',
     },
     {
       year: '2024',
-      title: 'Front-end',
-      company: 'SheCanCode',
-      description: 'Learning as a trainee for 4 months in an intensive program',
+      title: 'Backend Developer',
+      company: 'Ener Power Tech',
+      description: 'Backend APIs with Node.ts,Express &Postgres. focused on auth and data — 3 months',
     },
     {
         year: '2024-Present',
