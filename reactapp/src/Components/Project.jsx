@@ -3,34 +3,34 @@ import { motion } from 'framer-motion';
 const projects = [
   
   {
-    title: 'Seekconnect Project',
-    imageSrc: '/p2.png', 
-    githubLink: 'https://seekconnect-front-end.onrender.com/',
+    title: 'Parking Reservation',
+    imageSrc: '/p1.png', 
+    githubLink: 'https://spot-sure-pr.vercel.app/',
     
   },
   {
-    title: 'Movie App',
-    imageSrc: '/p3.png', 
+    title: 'Tap&Eat',
+    imageSrc: '/Tap&Eat.png', 
     githubLink: 'https://netflix-ubhc.onrender.com/',
     
   },
   {
-    title: 'Country API App',
-    imageSrc: '/p4.png', 
+    title: 'Catering Platform',
+    imageSrc: '/cater.png', 
     githubLink: 'https://f-countries.onrender.com/',
 
   },
   {
     title: 'E-commerce App',
-    imageSrc: '/ro.png', 
+    imageSrc: '/botiga.png', 
     githubLink: 'https://uwinezaflorence20.github.io/rock_paper_scissor_app/'
     ,
     
   },
  
   {
-    title: 'Age calculator App',
-    imageSrc: '/age.png', 
+    title: 'Mimi Assistant',
+    imageSrc: '/voice.png', 
     githubLink: 'https://uwinezaflorence20.github.io/age_calculator/',
 
   },

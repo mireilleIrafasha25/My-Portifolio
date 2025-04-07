@@ -50,7 +50,7 @@ const Contact = () => {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1, delay: 0.5 }}
           type="submit"
-          className="mt-6 w-full  text-black rounded-lg p-3 text-center font-semibold bg-[#D4AF37] focus:outline-none focus:border-teal-400"
+          className="mt-6 w-full  text-black rounded-lg p-3 text-center font-semibold bg-[#D4AF37] focus:outline-none focus:border-[#D4AF37]"
         >
           Send Message
         </motion.button>
