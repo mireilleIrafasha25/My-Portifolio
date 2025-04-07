@@ -63,7 +63,7 @@ const Project = () => {
   const visibleProjects = projects.slice(currentIndex, currentIndex + 3);
 
   return (
-    <div className="relative bg-gray-900 w-full p-28  pb-8 mx-auto">
+    <div className="relative bg-[#2E2E2E] w-full p-28  pb-8 mx-auto">
         <motion.div
         initial={{ opacity: 0, x: 100 }}
         animate={{ opacity: 1, x: 0 }}
@@ -76,7 +76,7 @@ const Project = () => {
           initial={{ opacity: 0, x: -100 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1, delay: 0.5 }}
-          key={index} className="bg-gray-800 rounded-lg p-6">
+          key={index} className="bg-[#2E2E2E] rounded-lg p-6">
             <img
               src={project.imageSrc}
               alt={`${project.title} screenshot`}
@@ -86,7 +86,7 @@ const Project = () => {
             <div className="flex justify-between mt-4">
               <a
                 href={project.githubLink}
-                className="text-green-400 hover:text-green-900"
+                className="text-[#D4AF37] hover:text-[#bca041]"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -105,7 +105,7 @@ const Project = () => {
         {Array.from({ length: Math.ceil(projects.length / 3) }).map((_, index) => (
           <button
             key={index}
-            className={`h-2 w-2 rounded-full mx-2 ${index === Math.floor(currentIndex / 3) ? 'bg-green-400' : 'bg-gray-400'}`}
+            className={`h-2 w-2 rounded-full mx-2 ${index === Math.floor(currentIndex / 3) ? 'bg-[#D4AF37]' : 'bg-gray-400'}`}
             onClick={() => setCurrentIndex(index * 3)}
           ></button>
         ))}

@@ -52,7 +52,7 @@ const Homepage = () => {
               <motion.button
               initial={{opacity:0,x:-100}}
               animate={{opacity:1,x:0}}
-              transition={{duration:1 , delay:0.5}}  className="mt-6 bg-[#D4AF37] text-black py-2 px-6 rounded-full hover:bg-[#ac8c24]">
+              transition={{duration:1 , delay:0.5}}  className="mt-6 bg-[#D4AF37] text-white py-2 px-6 rounded-full hover:bg-[#ac8c24]">
                 Download CV
               </motion.button>
             </motion.a>
@@ -113,7 +113,7 @@ const Homepage = () => {
         transition={{duration:1}}
                 src="/f.jpg"
                 alt="Florence Uwineza"
-                className="absolute inset-0 w-full h-full rounded-full border-4 border-[#D4AF37]"
+                className="absolute inset-0 w-full h-full mt-5 rounded-full border-4 border-[#D4AF37]"
                 style={{
                   boxShadow: "0 0 0 4px rgba(212, 175, 55, 0.6), 0 0 0 4px rgba(212, 175, 55, 0.6)",
                 }}

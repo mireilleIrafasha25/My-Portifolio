@@ -40,7 +40,7 @@ const Resume = () => {
   ];
 
   return (
-    <section className="bg-gray-900 px-28 text-white py-16"> 
+    <section className="bg-[#2E2E2E] px-28 text-white py-16"> 
       <motion.div
         initial={{ opacity: 0, x: -100 }}
         animate={{ opacity: 1, x: 0 }}
@@ -60,7 +60,7 @@ const Resume = () => {
             <div key={index} className="flex items-start space-x-4 relative">
               <div className="flex-shrink-0 relative">
                 <div></div>
-                <div className="flex items-center justify-center w-12 h-12 bg-green-400 rounded-full relative z-10">
+                <div className="flex items-center justify-center w-12 h-12 bg-[#D4AF37] rounded-full relative z-10">
                   <svg className="w-6 h-6 text-gray-900" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm-2-8h4a1 1 0 100-2H8a1 1 0 000 2zm0 4h4a1 1 0 100-2H8a1 1 0 000 2zm0-8h4a1 1 0 100-2H8a1 1 0 000 2z" clipRule="evenodd" />
                   </svg>
@@ -69,7 +69,7 @@ const Resume = () => {
               </div>
               <div>
                 <div className="flex items-center space-x-2">
-                  <span className="bg-gray-800 text-gray-400 px-2 py-1 rounded">{item.year}</span>
+                  <span className=" text-gray-400 px-2 py-1 rounded">{item.year}</span>
                 </div>
                 <h3 className="text-2xl font-bold mt-2">{item.title} <span className="font-normal text-gray-400">— {item.company}</span></h3>
                 <p className="mt-2 text-gray-400">{item.description}</p>

@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const Service = () => {
   return (
-    <section className="bg-gray-900 px-20 text-white">
+    <section className="bg-[#2E2E2E] px-20 text-white">
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
         <motion.div initial={{ opacity: 0, x: 100 }}
         animate={{ opacity: 1, x: 0 }}
@@ -21,10 +21,10 @@ const Service = () => {
         transition={{ duration: 1, delay: 0.5 }}
         className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-2">
           <a
-            className="block rounded-xl border border-gray-800 p-12 shadow-xl transition hover:border-green-400 hover:shadow-green-400 hover:bg-green-700"
+            className="block rounded-xl border border-gray-800 p-12 shadow-xl transition hover:border-[#D4AF37] hover:shadow-[#D4AF37] hover:bg-[#977c22]"
             href="#"
           >
-          <CgWebsite className="text-green-400 text-4xl" />
+          <CgWebsite className="text-[#D4AF37] text-4xl" />
 
             <h2 className="mt-4 text-xl font-bold text-white">Front-End Developer</h2>
 
@@ -35,10 +35,10 @@ const Service = () => {
           </a>
 
           <a
-            className="block rounded-xl border border-gray-800 p-12 shadow-xl transition  hover:border-green-400 hover:shadow-green-400 hover:bg-green-700"
+            className="block rounded-xl border border-gray-800 p-12 shadow-xl transition  hover:border-[#D4AF37] hover:shadow-[#D4AF37] hover:bg-[#977c22]"
             href="#"
           >
-           <FaFigma className="text-green-400 text-4xl"  />
+           <FaFigma className="text-[#D4AF37] text-4xl"  />
 
             <h2 className="mt-4 text-xl font-bold text-white">UI/UX Designing</h2>
 
@@ -48,10 +48,10 @@ const Service = () => {
           </a>
 
           <a
-            className="block rounded-xl border border-gray-800 p-12 shadow-xl transition  hover:border-green-400 hover:shadow-green-400 hover:bg-green-700"
+            className="block rounded-xl border border-gray-800 p-12 shadow-xl transition   hover:border-[#D4AF37] hover:shadow-[#D4AF37] hover:bg-[#977c22]"
             href="#"
           >
-            <CiDatabase className="text-green-400 text-4xl"  />
+            <CiDatabase className="text-[#D4AF37] text-4xl"  />
 
             <h2 className="mt-4 text-xl font-bold text-white">Database Managnment</h2>
 
@@ -62,10 +62,10 @@ const Service = () => {
  
 
           <a
-            className="block rounded-xl border border-gray-800 p-12 shadow-xl transition  hover:border-green-400 hover:shadow-green-400 hover:bg-green-700"
+            className="block rounded-xl border border-gray-800 p-12 shadow-xl transition  hover:border-[#D4AF37] hover:shadow-[#D4AF37] hover:bg-[#977c22]"
             href="#"
           >
-            <GiArtificialIntelligence className="text-green-400 text-4xl" />
+            <GiArtificialIntelligence className="text-[#D4AF37] text-4xl" />
 
             <h2 className="mt-4 text-xl font-bold text-white">AI</h2>
 

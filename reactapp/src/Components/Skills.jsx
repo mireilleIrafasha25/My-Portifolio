@@ -15,7 +15,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section className="bg-gray-900 text-white py-16">
+    <section className="bg-[#2E2E2E] text-white py-16">
       <div className="container mx-auto px-4">
         <motion.h2
         initial={{ opacity: 0, x: 100 }}
@@ -32,9 +32,9 @@ const Skills = () => {
                   value={skill.percentage}
                   text={`${skill.percentage}%`}
                   styles={buildStyles({
-                    textColor: '#10B981', // Tailwind text-green-400
-                    pathColor: '#10F999',
-                    trailColor: '#1F2937',
+                    textColor: '#D4AF37', // Tailwind text-green-400
+                    pathColor: '#D4AF37',
+                    trailColor: '#2E2E2E',
                   })}
                 />
               </div>
