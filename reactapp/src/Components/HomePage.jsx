@@ -16,14 +16,14 @@ import { motion } from "framer-motion";
 const Homepage = () => {
   return (
     <div>
-      <div className="bg-gray-900 text-white min-h-screen pt-8 flex flex-col justify-center items-center">
+      <div className="bg-[#2E2E2E] text-white min-h-screen pt-8 flex flex-col justify-center items-center">
         <div className="flex flex-col px-32 gap-40 md:flex-row items-center ">
           <div className="text-center md:text-left md:w-1/2">
             <motion.p
             initial={{opacity:0,x:-100}}
             animate={{opacity:1,x:0}}
             transition={{duration:1 , delay:0.5}} 
-             className="text-lg md:text-xl text-gray-400 mb-2">
+             className="text-lg md:text-xl text-gray-400 mb-2 mt-10">
               Software Developer
             </motion.p>
             <motion.h1
@@ -33,14 +33,14 @@ const Homepage = () => {
             <motion.h2
             initial={{opacity:0,x:-100}}
             animate={{opacity:1,x:0}}
-            transition={{duration:1 , delay:0.5}}  className="text-4xl md:text-5xl font-bold text-green-400">
-              Florence Uwineza
+            transition={{duration:1 , delay:0.5}}  className="text-4xl md:text-5xl font-bold text-[#D4AF37] ">
+            Mireille Irafasha
             </motion.h2>
             <motion.p 
             initial={{opacity:0,x:-100}}
             animate={{opacity:1,x:0}}
             transition={{duration:1 , delay:0.5}}  className="mt-4 text-gray-400">
-              I am Front-End and UI/UX designer and
+              I am Full Stack Developer and UI/UX designer and
               <br />
               am proficient in various programming languages and technologies.
             </motion.p>
@@ -52,7 +52,7 @@ const Homepage = () => {
               <motion.button
               initial={{opacity:0,x:-100}}
               animate={{opacity:1,x:0}}
-              transition={{duration:1 , delay:0.5}}  className="mt-6 bg-green-500 text-black py-2 px-6 rounded-full hover:bg-green-600">
+              transition={{duration:1 , delay:0.5}}  className="mt-6 bg-[#D4AF37] text-black py-2 px-6 rounded-full hover:bg-[#ac8c24]">
                 Download CV
               </motion.button>
             </motion.a>
@@ -63,7 +63,7 @@ const Homepage = () => {
               animate={{opacity:1,x:0}}
               transition={{duration:1 , delay:0.5}} 
                 href="https://github.com/uwinezaflorence20"
-                className="text-green-400 text-xl"
+                className="text-[#D4AF37] text-xl"
               >
                 <FontAwesomeIcon icon={faGithub} />
               </motion.a>
@@ -72,7 +72,7 @@ const Homepage = () => {
               animate={{opacity:1,x:0}}
               transition={{duration:1 , delay:0.5}} 
                 href="https://www.linkedin.com/in/uwineza-florence-3b9463280/"
-                className="text-green-400 text-xl"
+                className="text-[#D4AF37] text-xl"
               >
                 <FontAwesomeIcon icon={faLinkedin} />
               </motion.a>
@@ -81,7 +81,7 @@ const Homepage = () => {
               animate={{opacity:1,x:0}}
               transition={{duration:1 , delay:0.5}} 
                 href="https://www.linkedin.com/in/uwineza-florence-3b9463280/"
-                className="text-green-400 text-xl"
+                className="text-[#D4AF37] text-xl"
               >
                 <FontAwesomeIcon icon={faTwitter} />
               </motion.a>
@@ -90,7 +90,7 @@ const Homepage = () => {
               animate={{opacity:1,x:0}}
               transition={{duration:1 , delay:0.5}} 
                 href="https://www.instagram.com/_uwineza_/"
-                className="text-green-400 text-xl"
+                className="text-[#D4AF37] text-xl"
               >
                 <FontAwesomeIcon icon={faInstagram} />
               </motion.a>
@@ -99,7 +99,7 @@ const Homepage = () => {
               animate={{opacity:1,x:0}}
               transition={{duration:1 , delay:0.5}} 
                 href="https://www.instagram.com/_uwineza_/"
-                className="text-green-400 text-xl"
+                className="text-[#D4AF37] text-xl"
               >
                 <FontAwesomeIcon icon={faFacebook} />
               </motion.a>
@@ -113,10 +113,9 @@ const Homepage = () => {
         transition={{duration:1}}
                 src="/f.jpg"
                 alt="Florence Uwineza"
-                className="absolute inset-0 w-full h-full rounded-full border-4 border-green-400"
+                className="absolute inset-0 w-full h-full rounded-full border-4 border-[#D4AF37]"
                 style={{
-                  boxShadow:
-                    "0 0 0 4px rgba(79, 208, 154, 0.6), 0 0 0 4px rgba(79, 208, 154, 0.6)",
+                  boxShadow: "0 0 0 4px rgba(212, 175, 55, 0.6), 0 0 0 4px rgba(212, 175, 55, 0.6)",
                 }}
               />
             </div>
@@ -124,7 +123,7 @@ const Homepage = () => {
         </div>
         <div className="mt-12 flex space-x-12 gap-20 px-32">
           <div className="text-center flex gap-2">
-            <div className="rounded-full bg-green-400 w-16 h-16 flex items-center justify-center mx-auto">
+            <div className="rounded-full bg-[#D4AF37] w-16 h-16 flex items-center justify-center mx-auto">
               <h3 className="text-white text-2xl font-bold">1</h3>
             </div>
             <p className="text-gray-400 text-sm mt-2">
@@ -132,7 +131,7 @@ const Homepage = () => {
             </p>
           </div>
           <div className="text-center flex gap-2">
-            <div className="rounded-full bg-green-400 w-16 h-16 flex items-center justify-center mx-auto">
+            <div className="rounded-full bg-[#D4AF37] w-16 h-16 flex items-center justify-center mx-auto">
               <h3 className="text-white text-2xl font-bold">5</h3>
             </div>
             <p className="text-gray-400 mt-2">
@@ -140,7 +139,7 @@ const Homepage = () => {
             </p>
           </div>
           <div className="text-center flex gap-2">
-            <div className="rounded-full bg-green-400 w-16 h-16 flex items-center justify-center mx-auto">
+            <div className="rounded-full bg-[#D4AF37] w-16 h-16 flex items-center justify-center mx-auto">
               <h3 className="text-white text-2xl font-bold">8</h3>
             </div>
             <p className="text-gray-400 mt-2">
@@ -148,7 +147,7 @@ const Homepage = () => {
             </p>
           </div>
           <div className="text-center flex gap-2">
-            <div className="rounded-full bg-green-400 w-16 h-16 flex items-center justify-center mx-auto">
+            <div className="rounded-full bg-[#D4AF37] w-16 h-16 flex items-center justify-center mx-auto">
               <h3 className="text-white text-3xl font-bold">500</h3>
             </div>
             <p className="text-gray-400 mt-2">
