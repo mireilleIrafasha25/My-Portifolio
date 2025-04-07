@@ -25,7 +25,7 @@ const Navbar = () => {
           <Link to="/project"><li><a className="block py-2 px-4 hover:text-[#D4AF37]">Project</a></li></Link>
           <Link to="/contact"><li><a className="block py-2 px-4 hover:text-[#D4AF37]">Contact</a></li></Link>
         </ul>
-        <Link to="https://github.com/uwinezaflorence20">
+        <Link to="https://github.com/mireilleIrafasha25" target='blank'>
           <button className="hidden md:block bg-[#D4AF37] text-white py-2 px-4 rounded-full hover:bg-[#D4AF37]">Hire me</button>
         </Link>
       </div>

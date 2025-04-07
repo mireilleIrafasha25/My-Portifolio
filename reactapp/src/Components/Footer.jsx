@@ -26,7 +26,7 @@ const Footer = () => {
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
             <a
-              href="www.linkedin.com/in/irafasha-marie-mireille-26510b2aa"
+              href="https://x.com/IrafashaMa44925"
               className="text-[#D4AF37] text-xl"
             >
               <FontAwesomeIcon icon={faTwitter} />
@@ -37,12 +37,7 @@ const Footer = () => {
             >
               <FontAwesomeIcon icon={faInstagram} />
             </a>
-            <a
-              href="https://www.instagram.com/_uwineza_/"
-              className="text-[#D4AF37] text-xl"
-            >
-              <FontAwesomeIcon icon={faFacebook} />
-            </a>
+           
         </div>
         <div className="flex space-x-6 mb-4">
         <ul className={`flex space-x-1 md:space-x-1 flex-col md:flex-row absolute md:static top-16 left-0 w-full md:w-auto bg-gray-900 md:bg-transparent z-10`}>
