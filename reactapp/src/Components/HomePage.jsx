@@ -56,53 +56,6 @@ const Homepage = () => {
               </motion.button>
             </motion.a>
 
-            <div className="flex space-x-8 mt-4 justify-center md:justify-start">
-              <motion.a
-              initial={{opacity:0,x:-100}}
-              animate={{opacity:1,x:0}}
-              transition={{duration:1 , delay:0.5}} 
-                href="https://github.com/uwinezaflorence20"
-                className="text-[#D4AF37] text-xl"
-              >
-                <FontAwesomeIcon icon={faGithub} />
-              </motion.a>
-              <motion.a
-              initial={{opacity:0,x:-100}}
-              animate={{opacity:1,x:0}}
-              transition={{duration:1 , delay:0.5}} 
-                href="https://www.linkedin.com/in/uwineza-florence-3b9463280/"
-                className="text-[#D4AF37] text-xl"
-              >
-                <FontAwesomeIcon icon={faLinkedin} />
-              </motion.a>
-              <motion.a
-              initial={{opacity:0,x:-100}}
-              animate={{opacity:1,x:0}}
-              transition={{duration:1 , delay:0.5}} 
-                href="https://www.linkedin.com/in/uwineza-florence-3b9463280/"
-                className="text-[#D4AF37] text-xl"
-              >
-                <FontAwesomeIcon icon={faTwitter} />
-              </motion.a>
-              <motion.a
-              initial={{opacity:0,x:-100}}
-              animate={{opacity:1,x:0}}
-              transition={{duration:1 , delay:0.5}} 
-                href="https://www.instagram.com/_uwineza_/"
-                className="text-[#D4AF37] text-xl"
-              >
-                <FontAwesomeIcon icon={faInstagram} />
-              </motion.a>
-              <motion.a
-              initial={{opacity:0,x:-100}}
-              animate={{opacity:1,x:0}}
-              transition={{duration:1 , delay:0.5}} 
-                href="https://www.instagram.com/_uwineza_/"
-                className="text-[#D4AF37] text-xl"
-              >
-                <FontAwesomeIcon icon={faFacebook} />
-              </motion.a>
-            </div>
           </div>
           <div className="relative mt-10 md:mt-0 md:ml-10">
             <div className="relative w-60 h-60 md:w-80 md:h-80">
@@ -121,8 +74,8 @@ const Homepage = () => {
      
       
       <Resume />
-      <Service />
       <Certificate />
+      <Service />
       <Project />
       <Contact />
     </div>
