@@ -31,12 +31,7 @@ const Resume = () => {
         company: 'Klab',
         description: 'Learning as trainee for 4 months in Full Stack Development.',
       },
-      {
-        year: '2024-Present',
-        title: 'ALX AiCE - AI Career Essentials',
-        company: 'ALX Rwanda',
-        description: 'AI essential skills',
-      },
+ 
   ];
 
   return (
@@ -71,7 +66,7 @@ const Resume = () => {
                 <div className="flex items-center space-x-2">
                   <span className=" text-gray-400 px-2 py-1 rounded">{item.year}</span>
                 </div>
-                <h3 className="text-2xl font-bold mt-2">{item.title} <span className="font-normal text-gray-400">— {item.company}</span></h3>
+                <h3 className="text-2xl font-bold mt-2">{item.title} <span className="font-normal text-gray-400">— <br/>{item.company}</span></h3>
                 <p className="mt-2 text-gray-400">{item.description}</p>
               </div>
             </div>
