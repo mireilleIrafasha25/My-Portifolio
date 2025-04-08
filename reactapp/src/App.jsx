@@ -5,7 +5,7 @@ import HomePage from './Components/HomePage';
 import Service from './Components/Service';
 import Resume from './Components/Resume';
 import Aboutme from './Components/Aboutme';
-import Skills from './Components/Skills';
+import Certificate from './Components/Certificate';
 import Project from './Components/Project';
 import Contact from './Components/Contact'
 import Footer from './Components/Footer';
@@ -18,7 +18,7 @@ const App = () => {
           <Route path="/service" element={<Service/>}/>
           <Route path="/resume" element={<Resume/>}/>
           <Route path="/aboutme" element={<Aboutme/>}/>
-          <Route path="/skill" element={<Skills/>}/>
+          <Route path="/certificate" element={<Certificate/>}/>
           <Route path="/project" element={<Project/>}/>
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/footer" element={<Footer/>}/>

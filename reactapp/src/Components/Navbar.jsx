@@ -21,7 +21,7 @@ const Navbar = () => {
           {/* <Link to="/aboutme"><li><a className="block py-2 px-4 hover:underline hover:text-[#D4AF37]">About</a></li></Link> */}
           <Link to="/resume"><li><a className="block py-2 px-4 hover:text-[#D4AF37]">Resume</a></li></Link>
           <Link to="/service"><li><a className="block py-2 px-4 hover:text-[#D4AF37]">Services</a></li></Link>
-          <Link to="/skill"><li><a className="block py-2 px-4 hover:text-[#D4AF37]">Skill</a></li></Link>
+          <Link to="/certificate"><li><a className="block py-2 px-4 hover:text-[#D4AF37]">Certificate</a></li></Link>
           <Link to="/project"><li><a className="block py-2 px-4 hover:text-[#D4AF37]">Project</a></li></Link>
           <Link to="/contact"><li><a className="block py-2 px-4 hover:text-[#D4AF37]">Contact</a></li></Link>
         </ul>

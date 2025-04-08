@@ -8,7 +8,7 @@ import {
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import Service from "./Service";
-import Skills from "./Skills";
+import Certificate from "./Certificate";
 import Resume from "./Resume";
 import Project from "./Project";
 import Contact from "./Contact";
@@ -122,7 +122,7 @@ const Homepage = () => {
       
       <Resume />
       <Service />
-      <Skills />
+      <Certificate />
       <Project />
       <Contact />
     </div>
