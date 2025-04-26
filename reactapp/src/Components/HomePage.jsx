@@ -47,7 +47,7 @@ const Homepage = () => {
             initial={{opacity:0,x:-100}}
             animate={{opacity:1,x:0}}
             transition={{duration:1 , delay:0.5}} 
-             href="cv of mine.pdf" download>
+             href="MIMI CV25.pdf" download>
               <motion.button
               initial={{opacity:0,x:-100}}
               animate={{opacity:1,x:0}}
