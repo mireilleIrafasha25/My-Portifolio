@@ -38,9 +38,8 @@ const Homepage = () => {
             <motion.p 
             initial={{opacity:0,x:-100}}
             animate={{opacity:1,x:0}}
-            transition={{duration:1 , delay:0.5}}  className="mt-4 text-gray-400">
-              I am Full Stack Developer and UI/UX designer and
-              <br />
+            transition={{duration:1 , delay:0.5}}  className="mt-4 text-gray-400 w-72 md:w-[500px]">
+              I am Full Stack Software and Mobile Developer and UI/UX designer and
               am proficient in various programming languages and technologies.
             </motion.p>
             <motion.a
@@ -64,7 +63,7 @@ const Homepage = () => {
         animate={{opacity:1,x:0}}
         transition={{duration:1}}
                 src="/homep.jpg"
-                alt="Florence Uwineza"
+                alt="Mimi"
                 className="absolute inset-0 w-full h-full mt-5 rounded-full "
                 
               />

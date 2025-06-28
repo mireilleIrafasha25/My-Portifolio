@@ -1,36 +1,33 @@
 import { motion } from "framer-motion";
 const Resume = () => {
   const timelineData = [
-    {
-      year: '2018 - 2021',
-      title: 'Advanced level',
-      company: "FAWE GIRL'S SCHOOL GAHINI",
-      description: 'In combination of MCE(Mathematic-computer science-economics)',
+     {
+        year: 'Dec 2024-Present',
+        title: 'Full Stack Development',
+        company: 'Klab',
+        description: 'Learning as trainee in Full Stack Software and Mobile Development.',
+      },
+       {
+      year: 'Aug 2024- Nov 2024',
+      title: 'Backend Developer',
+      company: 'Ener Power Tech',
+      description: 'Backend APIs with Node, Typescript, Express & Postgres. focused on auth and data — 3 months',
     },
-    {
-      year: '2021 - PRESENT',
-      title: 'Bachelor degrees',
-      company: 'UR',
-      description: 'Bachelor degree in computer science',
-    },
-    {
+       {
       year: 'Feb 2024 - May 2024',
       title: 'Backend Development',
       company: 'SheCanCode',
       description: 'Learning as a trainee for 4 months in an intensive program',
     },
     {
-      year: 'Aug 2024- Nov 2024',
-      title: 'Backend Developer',
-      company: 'Ener Power Tech',
-      description: 'Backend APIs with Node.ts,Express &Postgres. focused on auth and data — 3 months',
+      year: '2022- PRESENT',
+      title: "Bachelor's degree",
+      company: 'University of Rwanda',
+      description: "Bachelor's degree in computer science",
     },
-    {
-        year: 'Dec 2024-March 2025',
-        title: 'Full Stack Development',
-        company: 'Klab',
-        description: 'Learning as trainee for 4 months in Full Stack Development.',
-      },
+ 
+ 
+   
  
   ];
 
