@@ -62,9 +62,9 @@ const Homepage = () => {
               initial={{opacity:0,x:100}}
         animate={{opacity:1,x:0}}
         transition={{duration:1}}
-                src="/homep.jpg"
+                src="/mimi1.jpg"
                 alt="Mimi"
-                className="absolute inset-0 w-full h-full mt-5 rounded-full "
+                className="absolute inset-0 w-full h-full mt-10 rounded-full object-cover shadow-lg"
                 
               />
             </div>
